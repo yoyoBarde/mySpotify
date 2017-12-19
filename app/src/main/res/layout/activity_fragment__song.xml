@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.j.spotify.Fragment_Song">
+
+
+
+    <ImageView
+        android:id="@+id/fragmentBackground"
+        android:background="@color/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <ImageView
+        android:id="@+id/duration1"
+        android:layout_width="70dp"
+        android:layout_height="5dp"
+        android:background="@color/albumColor"/>
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_play"/>
+    <TextView
+        android:id="@+id/fragment_TV_title"
+        android:layout_centerInParent="true"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What do Lovers Do(feat. SZA)"
+        />
+    <ImageView
+
+        android:layout_centerVertical="true"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_up"/>
+    <ImageView
+        android:layout_below="@+id/fragmentBackground"
+        android:background="@color/backgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+</RelativeLayout>
