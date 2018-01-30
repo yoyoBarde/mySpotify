@@ -2,11 +2,15 @@ package com.example.j.spotify
 
 import android.app.Fragment
 import android.content.Context
+import android.media.Image
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
+import android.widget.Toast
+import kotlinx.android.synthetic.*
 import kotlinx.android.synthetic.main.activity_fragment__song.*
 
 class Fragment_Song : Fragment(){
@@ -23,8 +27,15 @@ class Fragment_Song : Fragment(){
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        var mContext = context
+
+
+
+
+
+
 
     }
 
+    }
 
-}

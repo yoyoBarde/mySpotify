@@ -13,19 +13,18 @@
         android:background="@color/toolbar"
         android:layout_width="match_parent"
         android:layout_height="60dp" />
-    <ImageView
-        android:id="@+id/duration1"
-        android:layout_width="70dp"
-        android:layout_height="5dp"
-        android:background="@color/albumColor"/>
+
 
     <ImageView
+
         android:layout_centerVertical="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:src="@drawable/ic_play"/>
+        android:src="@drawable/ic_pause"
+        android:id="@+id/playPause_btn"
+        android:layout_marginRight="15dp"/>
     <TextView
         android:id="@+id/fragment_TV_title"
         android:layout_centerInParent="true"
@@ -33,17 +32,24 @@
         android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="What do Lovers Do(feat. SZA)"
+        android:text=""
         />
     <ImageView
 
         android:layout_centerVertical="true"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:src="@drawable/ic_up"/>
+        android:src="@drawable/ic_up"
+        android:id="@+id/imageView" />
     <ImageView
         android:layout_below="@+id/fragmentBackground"
         android:background="@color/backgroundColor"
         android:layout_width="match_parent"
         android:layout_height="1dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="70dp"
+        android:layout_height="15dp"
+     />
 </RelativeLayout>
